@@ -8,4 +8,4 @@ Flow and files
 - [optimize/optimize_positions.py](optimize/optimize_positions.py) import the resulting routes and optimizes the positions of the police units. The optimized positions and the resulting interception dictionary (reflecting which routes are intercepted by the chosen strategy) are saved.
 - In [optimize/cross_evaluation_optimization.ipynb](optimize/cross_evaluation_optimization.ipynb), these positions and the routes are imported to evaluate their relative robustness. I.e., how well does a strategy perform on a set of routes generated using a different rationale or profile - also see the figure below. The resulting heatmaps are saved in the [optimize/](optimize/) folder. 
 
-![diagram of cross-evaluation](data/method.png)
+![diagram of cross-evaluation](method.png)
